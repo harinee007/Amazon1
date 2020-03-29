@@ -14,11 +14,6 @@ public class Amazon1 {
 		String url="https://www.amazon.in/";
 		driver.get(url);
 		Thread.sleep(5000);
-		
-		/*Actions action=new Actions(driver);
-		WebElement hover=driver.findElement(By.className("nav-line-4"));
-		action.moveToElement(hover).perform();
-		System.out.println("Hovered to sign in");*/
 	}
 
 }
